@@ -6,14 +6,7 @@
 </head>
 <body>
 <h1 style="color: cornflowerblue">Welcome to Login!!</h1>
-<form method = 'post'>
-    {{ form.as_p }}
-    {% csrf_token %}
-    <input type = 'submit' value = 'login'>
-</form>
 <h1 style="color: red">Don't Have Account Register!!</h1>
-<a href="{% url 'gtform' %}">Register</a>
-<h1 style="color: chartreuse">Personal detail form!!</h1>
-<a href="{% url 'form' %}">Form</a>
+
 </body>
 </html>
